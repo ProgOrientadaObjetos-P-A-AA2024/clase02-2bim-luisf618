@@ -13,6 +13,9 @@ public class EstudianteDistancia extends Estudiante{
         super(n, ap, iden, e);
         numeroAsignaturas = numAsg;
         costoAsignatura = costoAsg;
+        // En el mismo constructor donde se inicializan los atributos de la
+        // superclase se pueden inicializar las variables de la clase, como se
+        // haria normalmente en una clase que no heresa
     }
     
     // 2.  Método establecerNumeroAsginaturas(numero: Real)
