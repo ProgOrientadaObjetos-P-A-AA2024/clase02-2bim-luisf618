@@ -58,7 +58,7 @@ public class EstudiantePresencial extends Estudiante{
                 + "Costo de Credito: %.2f\n"
                 + "Valor de la Matricula: %.2f\n",
                 nombresEstudiante,
-                apellidosEstudiante,
+                obtenerApellidoEstudiante(),
                 identificacionEstudiante,
                 numeroCreditos,
                 costoCredito,
