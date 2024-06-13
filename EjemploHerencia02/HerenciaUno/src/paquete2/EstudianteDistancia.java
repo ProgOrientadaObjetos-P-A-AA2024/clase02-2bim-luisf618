@@ -1,5 +1,7 @@
 package paquete2;
 
+// Se genera un error porque al momento de heredar de una clase que tiene un 
+// constructor tambien ocupa un constructor para poder ocupar los parametros
 public class EstudianteDistancia extends Estudiante{
     
     private int numeroAsignaturas;
